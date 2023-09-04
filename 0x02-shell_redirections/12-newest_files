@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l $(find . -type f) | sort -nr | head -n 10
+ls -lt $(find . -type f) | head -n 10
