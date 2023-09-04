@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt $(find . -type f) | head -n 10
+ls -lt --sort=ctime | head -n 10
