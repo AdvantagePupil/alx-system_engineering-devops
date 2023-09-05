@@ -1,2 +1,2 @@
 #!/bin/bash
-find "$PATH" -type d | grep -v "^.&" | wc-l
+echo $(find "$PATH" -type d | grep -v "^.&" | wc-l)
