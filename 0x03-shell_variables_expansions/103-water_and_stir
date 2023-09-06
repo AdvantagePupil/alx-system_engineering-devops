@@ -1,2 +1,0 @@
-#!/bin/bash
-printf "%bestchol" $(($((WATER + $((printf "%WATER" $STIR))))))
