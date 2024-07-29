@@ -5,7 +5,7 @@ import sys
 
 if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/"
-    user_id = sys.argv[1]
+    user_id = sys.argv[1]  # Ensure the ID is treated as a string
     user_response = requests.get(url + "users/{}".format(user_id)).json()
     todos_response = requests.get(url + "todos", params={"userId": user_id}).json()
 
