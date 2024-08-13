@@ -1,4 +1,5 @@
-#!/usr/bin/python3
+#!user/bin/python3
+
 "subscribers count"
 
 import requests
