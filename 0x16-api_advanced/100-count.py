@@ -1,4 +1,5 @@
-s module is for a function that queries the Reddit API recursively."""
+#!user/bin/python3
+""" module is for a function that queries the Reddit API recursively."""
 
 
 import requests
